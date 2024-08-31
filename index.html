@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of speed food Quality</title>
+    <link rel="shortcut icon" href="./images/image10.png" type="image/x-icon">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/abe88cc625.js" crossorigin="anonymous"></script>
+    <!-- font poppins Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font poppins Great-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- tailwind and dasiy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF9F0D',
+                    },
+                    backgroundImage: {
+                       pataBanner: "url('./images/pata.png')"
+                    },
+                    fontFamily: {
+                        great: "Great Vibes",
+                        roboto: "Roboto"
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="font-roboto">
+    <header class="bg-black">
+        <!-- navbar section -->
+        <nav>
+            <div class="navbar p-4 lg:p-0 h-0 max-w-5xl mx-auto">
+                <div class="navbar p-0 hidden lg:flex">
+                    <ul class="menu-horizontal gap-6 text-white">
+                        <li class="hover:text-primary transition duration-700 hover:underline underline-offset-8"><a href="">Home</a></li>
+                        <li class="hover:text-primary transition duration-700 hover:underline underline-offset-8"><a href="">Menu</a></li>
+                        <li class="hover:text-primary transition duration-700 hover:underline underline-offset-8"><a href="">Blog</a></li>
+                        <li class="hover:text-primary transition duration-700 hover:underline underline-offset-8"><a href=""> Pages</a></li>
+                        <li class="hover:text-primary transition duration-700 hover:underline underline-offset-8"><a href="">About</a></li>
+                        <li class="hover:text-primary transition duration-700 hover:underline underline-offset-8"><a href="">Shop</a></li>
+                        <li class="hover:text-primary transition duration-700 hover:underline underline-offset-8"><a href="">Contact</a></li>
+                        <li class="text-xl font-bold"><a href=""><span class="text-primary">Food</span>tuck</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-start">
+                    <div class="drawer lg:hidden">
+                        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+                        <div class="drawer-content">
+                            <!-- Page content here -->
+                            <label for="my-drawer" class="py-1.5 px-3 text-white rounded bg-green-500">Open</label>
+                        </div>
+                        <div class="drawer-side mt-16">
+                            <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+                            <ul class="menu menu-horizontal bg-base-200 w-80 rounded-xl items-center">
+                                <!-- Sidebar content here -->
+                                <li class="hover:text-primary transition duration-700"><a href="">Home</a></li>
+                                <li class="hover:text-primary transition duration-700"><a href="">Menu</a></li>
+                                <li class="hover:text-primary transition duration-700"><a href="">Blog</a></li>
+                                <li class="hover:text-primary transition duration-700"><a href=""> Pages</a></li>
+                                <li class="hover:text-primary transition duration-700"><a href="">About</a></li>
+                                <li class="hover:text-primary transition duration-700"><a href="">Shop</a></li>
+                                <li class="hover:text-primary transition duration-700"><a href="">Contact</a></li>
+                                <li class="text-xl font-bold"><a href=""><span class="text-primary">Food</span>tuck</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <input
+                        class="bg-black outline-none border border-primary w-52 md:w-72 lg:w-full px-5 p-2 rounded-full text-white"
+                        type="text" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass absolute pr-4 text-white"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div class="max-w-5xl mx-auto p-4 lg:p-0">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4">
+                    <p class="text-3xl text-primary font-great">Its Quick & Amusing!</p>
+                    <h1 class="lg:text-5xl text-4xl font-bold lg:w-10/12 text-white"><span class="text-primary">Th</span>e Art of speed food Quality</h1>
+                    <p class="md:w-10/12 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Varius sed pharetra dictum neque massa congue</p>
+                    <button class="border-2 border-t-0 border-l-0 border-r-0 py-2 px-4 text-white rounded-lg">See Menu</button>
+                </div>
+                <div class="lg:relative">
+                    <img class="w-4/6 hidden lg:flex lg:ml-64 rotate-6" src="./images/pata.png" alt="">
+                    <div class="lg:absolute lg:top-12  lg:left-8">
+                        <img class="md:w-11/12" src="./images/food1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="bg-black py-6 lg:py-20">
+            <div class="max-w-5xl mx-auto p-4 lg:p-0">
+                <div class="grid md:grid-cols-2 gap-8 md:gap-4 lg:gap-10">
+                    <div class="space-y-5">
+                       <div class="space-y-1">
+                        <p class="text-3xl text-primary font-great">About us</p>
+                        <h1 class="md:text-4xl text-3xl font-bold lg:w-9/12 text-white"><span class="text-primary">We</span>Create the best
+                            foody product
+                            </h1>
+                       </div>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+                        <div class="text-white space-y-2">
+                           <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-check"></i>
+                               <p>Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+                           </div>
+                           <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-check"></i>
+                               <p>Quisque diam pellentesque bibendum non dui volutpat fringilla </p>
+                           </div>
+                           <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-check"></i>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                           </div>
+                        </div>
+                        <button class="border-2 border-t-0 border-l-0 border-r-0 py-2 px-4 text-white rounded-lg">Read More</button>
+                    </div>
+                    <div class="md:space-y-3 space-y-2">
+                        <img src="./images/food2.png" alt="">
+                        <div class="grid md:grid-cols-2 gap-2">
+                            <img src="./images/food3.png" alt="">
+                            <img src="./images/food4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black lg:py-12">
+            <div class="grid md:grid-cols-2 max-w-5xl mx-auto gap-12 p-4 lg:p-0">
+                    <div class="grid md:grid-cols-2 lg:grid-cols-5 md:gap-3 gap-4"> 
+                        <img class="lg:col-span-3" src="./images/image9.png" alt="">
+                        <img class="lg:col-span-2 md:pt-6 lg:pt-32" src="./images/image10.png" alt="">
+                            <img class="lg:col-span-2 w-full" src="./images/image11.png" alt="">
+                            <img class="lg:col-span-2 w-full md:h-[70%] " src="./images/image12.png" alt="">
+                            <div class="lg:space-y-3 space-y-3 md:space-y-0 md:gap-3 lg:gap-0 md:flex lg:flex-col">
+                                <img class="w-full" src="./images/image13.png" alt="">
+                                <img class="w-full" src="./images/image14.png" alt="">
+                            </div>
+                    </div>
+                <div class="space-y-5">
+                    <div class="space-y-1">
+                     <p class="text-3xl text-primary font-great">Why Choose us</p>
+                     <h1 class="md:text-4xl text-3xl lg:w-8/12 font-bold text-white"><span class="text-primary">Ex</span>ta ordinary taste
+                        And Experienced 
+                         </h1>
+                    </div>
+                     <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+                     <div class="flex text-white gap-6">
+                       <div>
+                        <div class="w-20 h-20 bg-primary rounded"> 
+                            <img class="mx-auto py-3" src="./images/icon1.png" alt="">                         
+                        </div>
+                         <small class="">Fast Food</small>
+                       </div>   
+                       <div>
+                        <div class="w-20 h-20 bg-primary rounded"> 
+                            <img class="mx-auto py-3" src="./images/icon2.png" alt="">                         
+                        </div>
+                         <small class="">Lunch</small>
+                       </div>   
+                       <div>
+                        <div class="w-20 h-20 bg-primary rounded"> 
+                            <img class="mx-auto py-3" src="./images/icon3.png" alt="">                         
+                        </div>
+                         <small class="">Dinner</small>
+                       </div>         
+                 </div>
+                 <div class="bg-white h-16 w-72 border-[8px] rounded border-b-0 border-t-0 border-r-0 border-primary">
+                    <div class="flex items-center py-2 justify-evenly">
+                        <h3 class="text-4xl font-bold text-primary">30+</h3>
+                        <div>
+                            <p class="text-[#1E1E1E]">Years of</p>
+                            <p class="text-xl text-[#1E1E1E]">Experienced</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
